@@ -1,0 +1,54 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+.section-p1{
+  padding: 40px 80px;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+
+  border-radius: 25px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0099ff; 
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0099ff; 
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+}
+
+.button:hover {
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  cursor: pointer;
+  background: transparent;
+}
+
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+}
+

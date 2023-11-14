@@ -1,0 +1,60 @@
+import React, {  useContext, useEffect } from 'react';
+import banner from "../../../../../assets/image/profile/banner.png";
+import Card from "../../../../../components/card";
+import { MyContext } from '../../../../../layouts/home/User'; 
+import MaDemandeUpgrade from './MaDemandeUpgrade';
+const Banner = ({image,username,email,smiles}) => {
+  const profile= useContext(MyContext);
+  const IsUserPro = window.localStorage.getItem("IsUserPro");
+
+  return (
+    <Card extra={"items-center w-full h-full p-[16px] bg-cover"}>
+      {/* Background and profile */}
+      <div
+        className="relative mt-1 flex h-32 w-full justify-center rounded-xl bg-cover"
+        style={{ backgroundImage: `url(${banner})` }}
+      >
+        <div className="absolute -bottom-12 flex h-[87px] w-[87px] items-center justify-center rounded-full border-[4px] border-white bg-pink-400 dark:!border-navy-700">
+          <img className="h-full w-full rounded-full" src={image} alt="" />
+        </div>
+      </div>
+
+      {/* Name and position */}
+      <div className="mt-16 flex flex-col items-center">
+        <h4 className="text-xl font-bold text-navy-700 dark:text-white">
+          {username}
+        </h4>
+        <p className="text-base font-normal text-gray-600">{email}</p>
+      </div>
+
+      {/* Post followers */}
+      <div className="mt-6 mb-3 flex gap-4 md:!gap-14">
+        <div className="flex flex-col items-center justify-center">
+          <p className="text-2xl font-bold text-navy-700 dark:text-white">17</p>
+          <p className="text-sm font-normal text-gray-600">Dons</p>
+        </div>
+        
+        <div className="flex flex-col items-center justify-center">
+          <p className="text-2xl font-bold text-navy-700 dark:text-white">
+            434
+          </p>
+          <p className="text-sm font-normal text-gray-600">Adoptions</p>
+        </div>
+        
+        
+        <div className="flex flex-col items-center justify-center">
+        <div className='flex justify-center items-center gap-2'>
+        <p className="text-2xl font-bold text-navy-700 dark:text-white">
+           {smiles} 
+          </p>
+          <img src={require('../../../../../img/smile.png')} className='h-8 w-8' alt="" />
+        </div>
+          <p className="text-sm font-normal text-gray-600">Smiles</p>
+        </div>
+      </div>
+{    !IsUserPro ?   <MaDemandeUpgrade/>
+:null}    </Card>
+  );
+};
+
+export default Banner;

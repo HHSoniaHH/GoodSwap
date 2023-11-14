@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "__v": 0,
+      "_id": "63db78ffe79b5b832020fb53",
+      "email": "otto94@gmail.com",
+      "fullname": "braham",
+      "password": "$2b$08$7/d0KXGpT245aNJrrK.cuuqcvxhIE7Id02IpffOBuyRuMUFC9Isn6"
+    },
+    {
+      "__v": 0,
+      "_id": "63dbc039963fe9a85fa802d2",
+      "email": "otto@gmail.com",
+      "fullname": "ede",
+      "password": "$2b$08$4PtrYA71Y4gKWQ5mXlsSduKN4g2T/9qsPjbUZBq1N1bpJBmJmei6O"
+    },
+    {
+      "__v": 0,
+      "_id": "63f0dcbe0ede324fde93c103",
+      "email": "zakariartttt@gmail.com",
+      "fullname": "zakbraham",
+      "password": "$2b$08$Fh50gYO6F28/MfHbUb/SGOFvu0T8jnuMw7cb37n17NH3E/uLMZl9W"
+    },
+    {
+      "__v": 0,
+      "_id": "63fc91511af94c0f2140b11c",
+      "email": "zak@gmail.com",
+      "fname": "braham",
+      "lname": "braham",
+      "password": "$2b$08$sT6YzfhlZlNaXFU0zY3PCOZz.gHBuOhau70UtUXiFk8qiRMslj8ii"
+    },
+    {
+      "__v": 0,
+      "_id": "63fc9a5d1f877a9c9375842f",
+      "email": "zakariabraham94@gmail.com",
+      "fname": "Braham",
+      "lname": "Zakaria",
+      "password": "$2b$08$eodPNITnijpmSX53phQ9SujFsP1ZccgSWGDQT0z85tcGPqMC1tn3S"
+    },
+    {
+      "__v": 0,
+      "_id": "63fc9c7550702105629702c6",
+      "email": "zakariabraam94@gmail.com",
+      "fname": "Braham",
+      "lname": "Rama",
+      "password": "$2b$08$a/t6Rnn986pMSVS0acqwZODHRzE0tiYTAcA1KSL2niy03VKlXf83q"
+    },
+    {
+      "__v": 0,
+      "_id": "63fc9d8c50702105629702cb",
+      "email": "zaki@gmail.com",
+      "fname": "braham",
+      "lname": "braham",
+      "password": "$2b$08$TRC2HVhqDoWFhD2C40/toO.XdPxofnMmUotr00jS4KsiZbz1PlxXO"
+    }
+  ],
+  "status": "ok",
+  "success": true
+}
